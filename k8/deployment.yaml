@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: netflix
-          image: your-dockerhub-username/netflix-clone:latest
+          image: rohit220500/netfilx:v1
           ports:
             - containerPort: 8080
 
