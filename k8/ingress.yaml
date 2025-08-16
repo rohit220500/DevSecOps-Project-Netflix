@@ -4,6 +4,7 @@ metadata:
   name: netflix-ingress
   namespace: netflix-app
   annotations:
+    kubernetes.io/ingress.class: "nginx"
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
@@ -17,4 +18,5 @@ spec:
                 name: netflix-service
                 port:
                   number: 80
+
 
