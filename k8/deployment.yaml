@@ -17,5 +17,5 @@ spec:
         - name: netflix
           image: rohit220500/netflix:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 80
 
